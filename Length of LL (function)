@@ -1,4 +1,8 @@
 
+/*
+ This function can be used for finding length of linear LL
+*/
+// creating a node class 
 class Node
 {
 public:
@@ -9,7 +13,7 @@ public:
         this -> next = NULL;
     }
 };
-
+// function for finding length
 int length(Node *head) {
    
   int len=0;
