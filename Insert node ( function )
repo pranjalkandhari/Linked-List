@@ -1,6 +1,7 @@
 
 // creating node class
-class Node{
+class Node
+{
 public:
     int data;
     Node *next;
@@ -46,7 +47,7 @@ Node* insertNode(Node *head, int pos, int data)
       temp1=temp1->next;
       i++;
     }
-   Node *x=temp1->next;
+    Node *x=temp1->next;
     temp1->next=n;
     n->next=x;
     return head;
