@@ -1,6 +1,5 @@
-/**********
- * Following is the Node class that is already written.
- 
+
+// node class 
 class Node{
 public:
     int data;
@@ -10,18 +9,15 @@ public:
         this -> next = NULL;
     }
 };
- 
-*********/
+
 
 int length(Node *head) {
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Return output and don't print it.
-     * Taking input is handled automatically.
-     */
+   // base condition
     if(head==NULL)
       return 0;
+   // recursive calling
   int b=length(head->next);
+  // returning length
   return b+1;
 }
 
