@@ -16,6 +16,7 @@ Node* insertNodeRec(Node *head, int i, int data) {
   if(head==NULL)
     return head;
   
+  // inserting node
     if(i==0)
     {
       Node *n =new Node(data);
@@ -24,6 +25,7 @@ Node* insertNodeRec(Node *head, int i, int data) {
       return head;
     }
   
+  // recursive calling
   Node *p=insertNodeRec(head->next,i-1,data);
   head->next=p;
   return head;
