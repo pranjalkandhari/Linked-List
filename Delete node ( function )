@@ -1,6 +1,4 @@
-/**********
- * Following is the Node class that is already written.
- 
+ // creating node class
 class Node{
 public:
     int data;
@@ -11,32 +9,32 @@ public:
     }
 };
  
-*********/
 
 Node* deleteNode(Node *head, int i) {
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Return output and don't print it.
-     * Taking input is handled automatically.
-     */
+  
     int len=0;
   Node *temp=head;
+  // finding length of LL
   while(temp!=NULL)
   {
     len++;
     temp=temp->next;
   }
   
+  // deletion at beginning
   if(i==0)
   {
     head=head->next;
     return head;
   }
+  // deletion outside LL
   else if (i>=len)
   {
     return head;
   }
-  else{
+  // deletion at middle
+  else
+  {
       Node *temp1=head;
     int j =0;
     while(j<i-1)
