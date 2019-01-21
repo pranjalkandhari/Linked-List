@@ -11,7 +11,7 @@ public:
 
 bool check_palindrome(node* head)
 {
-    
+   // base condition
   if(head==NULL)
     return true;
   
@@ -19,6 +19,7 @@ bool check_palindrome(node* head)
   node*p1=head;
   node*p2=head;
   node*temp=head;
+  // finding length
   while(temp!=NULL)
   {
     len++;
@@ -30,6 +31,7 @@ bool check_palindrome(node* head)
   }
   node*x=p2->next;
   p2->next=NULL;
+  // recursive calling of palindrome function
   if((p1->data)==(x->data))
   {
     bool x=check_palindrome(p1->next);
