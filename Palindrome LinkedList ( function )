@@ -1,6 +1,4 @@
-//head is the head of you linked list
-// Following is the node structure
-/**************
+// create node class
 class node{
 public:
     int data;
