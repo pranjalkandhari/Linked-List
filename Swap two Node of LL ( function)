@@ -14,8 +14,8 @@ public:
 node* swap_nodes(node *head,int i,int j)
 {
     //write your code here
- node*p1=0;
-node*c1=head; 
+ node*p1=head;
+ node*c1=head; 
  node*p2=head; 
  node*c2=head;
  node*x=NULL;
@@ -45,12 +45,10 @@ node*c1=head;
       k++;
     }
    c2=p2->next;
-    
-    
-    /*int temp=c1->data;
+    int temp=c1->data;
     c1->data=c2->data;
     c2->data=temp;
-    */
+    
   }
   
 
