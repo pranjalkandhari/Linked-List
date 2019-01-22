@@ -73,11 +73,7 @@ node* swap_nodes(node *head,int i,int j)
     c2->next=c1;
     
   }
-  
-  
-  
-  
-  
+ 
   else{
     k=0;
     while(k<i-1)
@@ -98,13 +94,6 @@ node* swap_nodes(node *head,int i,int j)
     c2->data=c1->data;
     c1->data=tempp;
   }
-  
-  
-  
-  
-  
-  
-  
   
   return head;
 }
