@@ -15,6 +15,7 @@ node* rev_linkedlist_itr(node* head)
   node*current=head;
   node*previous=NULL;
   node*next=NULL;
+  
   while(current!=NULL)
   {
     next=current->next;
