@@ -19,6 +19,7 @@ node *reverse_linked_list_rec(node *head)
     head->next=NULL;
     // recursive call
    node* hd=reverse_linked_list_rec(tmp);
+   // reversing LL
    tmp->next=head;
     return hd;
    }  
