@@ -43,12 +43,8 @@ node* swap_nodes(node *head,int i,int j)
    c2=p2->next;
     int temp=c1->data;
     c1->data=c2->data;
-    c2->data=temp;
-    
+    c2->data=temp; 
   }
-  
-
-  
   else if(j-i==0)
   {
     k=0;
@@ -66,8 +62,7 @@ node* swap_nodes(node *head,int i,int j)
     p1->next=c2;
     p2->next=c1;
     c1->next=c2->next;
-    c2->next=c1;
-    
+    c2->next=c1;  
   }
  
   else{
@@ -90,6 +85,5 @@ node* swap_nodes(node *head,int i,int j)
     c2->data=c1->data;
     c1->data=tempp;
   }
-  
   return head;
 }
