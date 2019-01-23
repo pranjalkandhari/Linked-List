@@ -1,5 +1,4 @@
-// Following is the node structure
-/**************
+// creating class node
 class node{
 public:
     int data;
@@ -9,10 +8,10 @@ public:
         this->next=NULL;
     }
 };
-***************/
+
 node* rev_linkedlist_itr(node* head)
 {
-    //write your iterative code here
+   
   node*current=head;
   node*previous=NULL;
   node*next=NULL;
