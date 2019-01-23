@@ -1,5 +1,4 @@
-// Following is the node structure
-/**************
+// creating class node
 class node{
 public:
     int data;
@@ -9,11 +8,11 @@ public:
         this->next=NULL;
     }
 };
-***************/
+
 
 node* midpoint_linkedlist(node *head)
 {
-    // Write your code here
+
    int len=0;
   node*temp=head;
   while(temp!=NULL)
