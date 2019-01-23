@@ -1,5 +1,4 @@
-// Following is the node structure
-/**************
+// creating class node
 class node{
 public:
     int data;
@@ -9,15 +8,16 @@ public:
         this->next=NULL;
     }
 };
-***************/
+
 node *reverse_linked_list_rec(node *head)
 {
-    //write your recursive code here
+  // base case 
   if(head->next==NULL)
     return head;
   
   node* tmp=head->next;
     head->next=NULL;
+    // recursive call
    node* hd=reverse_linked_list_rec(tmp);
    tmp->next=head;
     return hd;
