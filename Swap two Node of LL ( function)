@@ -1,6 +1,4 @@
-//head is head of your linked list, i and j are indexes to be swapped
-// Following is the node structure
-/**************
+// creating class node
 class node{
 public:
     int data;
@@ -10,10 +8,8 @@ public:
         this->next=NULL;
     }
 };
-***************/
 node* swap_nodes(node *head,int i,int j)
 {
-    //write your code here
  node*p1=head;
  node*c1=head; 
  node*p2=head; 
