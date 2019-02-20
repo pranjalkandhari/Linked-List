@@ -9,7 +9,6 @@
     }
  };
 
-
 Node* insertNodeRec(Node *head, int i, int data) {
     
     // base condition
