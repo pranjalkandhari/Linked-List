@@ -1,5 +1,6 @@
  // creating node class
-class Node{
+class Node
+{
 public:
     int data;
     Node *next;
@@ -12,7 +13,7 @@ public:
 
 Node* deleteNode(Node *head, int i) {
   
-    int len=0;
+  int len=0;
   Node *temp=head;
   // finding length of LL
   while(temp!=NULL)
