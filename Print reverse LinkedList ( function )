@@ -1,4 +1,5 @@
 // creating node class
+
 class node{
 public:
     int data;
@@ -15,9 +16,11 @@ voiprint_linkedlist_spl(node*head)
     
   if(head->next!=NULL)
     return head;
+    
     // recursive function call
     
   node *temp=print_linkedlist_spl(head->next);
+  
   // printing LL
   
   while(temp->next!=NULL)
