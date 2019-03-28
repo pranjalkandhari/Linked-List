@@ -36,7 +36,7 @@ Node* deleteNode(Node *head, int i) {
   // deletion at middle
   else
   {
-      Node *temp1=head;
+    Node *temp1=head;
     int j =0;
     while(j<i-1)
     {
