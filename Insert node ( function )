@@ -52,6 +52,7 @@ Node* insertNode(Node *head, int pos, int data)
     temp1->next=n;
     n->next=x;
     return head;
+    
   }
    
   }
