@@ -39,7 +39,8 @@ bool check_palindrome(node* head)
     bool x=check_palindrome(p1->next);
     return x;
   }
-  else{
+  else
+  {
     return false;
   }
 }
