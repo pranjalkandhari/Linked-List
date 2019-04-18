@@ -1,10 +1,12 @@
 // creating node class
 
-class node{
+class node
+{
 public:
     int data;
     node * next;
-    node(int data){
+    node(int data)
+    {
         this->data=data;
         this->next=NULL;
     }
