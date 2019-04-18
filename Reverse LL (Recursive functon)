@@ -1,5 +1,6 @@
 // creating class node
-class node{
+class node
+{
 public:
     int data;
     node * next;
@@ -12,17 +13,17 @@ public:
 node *reverse_linked_list_rec(node *head)
 {
   // base case 
-  if(head->next==NULL)
+   if(head->next==NULL)
     return head;
    
     node* tmp=head->next;
     head->next=NULL;
     
     // recursive call
-   node* hd=reverse_linked_list_rec(tmp);
+    node* hd=reverse_linked_list_rec(tmp);
    // reversing LL
    
-   tmp->next=head;
+    tmp->next=head;
     return hd;
    }  
 
