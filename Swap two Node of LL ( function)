@@ -1,9 +1,11 @@
 // creating class node
-class node{
+class node
+{
 public:
     int data;
     node * next;
-    node(int data){
+    node(int data)
+    {
         this->data=data;
         this->next=NULL;
     }
@@ -40,7 +42,7 @@ node* swap_nodes(node *head,int i,int j)
       p2=p2->next;
       k++;
     }
-   c2=p2->next;
+    c2=p2->next;
     int temp=c1->data;
     c1->data=c2->data;
     c2->data=temp; 
