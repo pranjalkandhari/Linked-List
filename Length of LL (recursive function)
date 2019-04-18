@@ -16,6 +16,7 @@ int length(Node *head)
    // base condition
     if(head==NULL)
       return 0;
+      
    // recursive function calling
   
   int b=length(head->next);
