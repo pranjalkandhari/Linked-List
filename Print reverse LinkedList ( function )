@@ -29,6 +29,7 @@ voiprint_linkedlist_spl(node*head)
   {
     temp=temp->next;
   }
+  
   temp->next=head;
   head=temp;
   return head;
