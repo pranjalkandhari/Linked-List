@@ -8,9 +8,10 @@ Sample Output 1 :
 */
 
 // creating class node
+
 class node
 {
-public:
+    public:
     int data;
     node * next;
     node(int data)
@@ -24,6 +25,7 @@ node* eliminate_duplicate(node* head)
 {
   if(head==NULL||head->next==NULL)
     return head;
+  
   node*h1=head;
   
   node*h2=head->next;
