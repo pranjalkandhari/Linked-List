@@ -24,9 +24,7 @@ int length(Node *head)
     len++;
     temp=temp->next;
   }
-  
-  return len;
-    
+  return len;   
 }
 
 
