@@ -5,7 +5,7 @@
 // creating a node class 
 class Node
 {
-public:
+ public:
     int data;
     Node *next;
     Node(int data)
@@ -15,7 +15,8 @@ public:
     }
 };
 // function for finding length
-int length(Node *head) {
+int length(Node *head)
+{
    
   int len=0;
   Node*temp=head;
