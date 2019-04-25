@@ -16,8 +16,7 @@ class Node
 };
 // function for finding length
 int length(Node *head)
-{
-   
+{ 
   int len=0;
   Node*temp=head;
   while(temp!=NULL)
