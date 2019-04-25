@@ -9,8 +9,8 @@ Sample Output 1 :
 
 // creating class node
 
-class node
-{
+ class node
+ {
     public:
     int data;
     node * next;
@@ -19,7 +19,7 @@ class node
         this->data=data;
         this->next=NULL;
     }
-};
+ };
 
 node* eliminate_duplicate(node* head)
 {
@@ -45,4 +45,5 @@ node* eliminate_duplicate(node* head)
     
   }
   return head;
+  
 }
