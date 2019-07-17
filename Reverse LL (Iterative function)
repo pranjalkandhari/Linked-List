@@ -1,5 +1,6 @@
 // creating class node
-class node{
+class node
+{
 public:
     int data;
     node * next;
@@ -25,5 +26,6 @@ node* rev_linkedlist_itr(node* head)
   }
   head=previous;
   return head;
+  
 }
 
