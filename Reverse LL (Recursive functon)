@@ -25,5 +25,6 @@ node *reverse_linked_list_rec(node *head)
    
     tmp->next=head;
     return hd;
+    
    }  
 
