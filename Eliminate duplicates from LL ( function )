@@ -24,6 +24,9 @@ Sample Output 1 :
     }
  };
 
+
+
+
 node* eliminate_duplicate(node* head)
 {
   if(head==NULL||head->next==NULL)
