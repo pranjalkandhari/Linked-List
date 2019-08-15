@@ -9,6 +9,9 @@ Sample Output 1 :
 
 // creating class node
 
+
+
+
  class node
  {
     public:
