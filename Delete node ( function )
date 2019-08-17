@@ -23,6 +23,7 @@ Node* deleteNode(Node *head, int i)
   }
   
   // deletion at beginning
+  
   if(i==0)
   {
     head=head->next;
@@ -34,6 +35,7 @@ Node* deleteNode(Node *head, int i)
     return head;
   }
   // deletion at middle
+  
   else
   {
     Node *temp1=head;
