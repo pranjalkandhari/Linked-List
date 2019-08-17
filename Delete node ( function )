@@ -13,7 +13,6 @@ public:
  
 Node* deleteNode(Node *head, int i)
 {
-  
   int len=0;
   Node *temp=head;
   // finding length of LL
