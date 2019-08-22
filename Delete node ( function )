@@ -12,8 +12,6 @@ public:
     }
 };
 
-
-
  
 Node* deleteNode(Node *head, int i)
 {
