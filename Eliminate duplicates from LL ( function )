@@ -6,9 +6,7 @@ Sample Output 1 :
 1 2 3 4 5 7
 
 */
-
 // creating class node
-
  class node
  {
     public:
@@ -20,7 +18,6 @@ Sample Output 1 :
         this->next=NULL;
     }
  };
-
 
 node* eliminate_duplicate(node* head)
 {
