@@ -1,6 +1,7 @@
 // creating node class
 
 class Node
+
  {
 public:
     int data;
