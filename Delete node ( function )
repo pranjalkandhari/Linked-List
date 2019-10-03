@@ -48,7 +48,7 @@ Node* deleteNode(Node *head, int i)
       temp1=temp1->next;
       j++;
     }
-    temp1->next=temp1->next->next;
+    temp1 -> next=temp1->next->next;
     return head;
   }
  
